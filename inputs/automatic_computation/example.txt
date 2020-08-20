@@ -1,0 +1,37 @@
+*homogenization
+Mori-Tanaka
+K:15,G:15
+0,1.0,0.3,K:200,G:200
+*
+Reuss model
+K:15,G:15
+10,100,0.2,S,test.txt
+*
+Differential scheme
+E:15,nu:0.2
+10,100,0.3,C,test.txt
+*
+Mori-Tanaka
+K:15,G:15
+0,1.0,0.3,K:200,G:200
+0,1.0,0.3,K:200,G:200
+*
+4-phase self-consistent
+K:15,G:15
+0.,0.2,K:200,G:200,0.3,K:200,G:200
+*
+Self-consistent
+K:15,G:15
+0,1.0,0.3,K:200,G:200
+*
+Reuss model
+K:15,G:15
+10,100,0.2,C,cristalPET_Cij.txt
+*
+Mori-Tanaka
+E:15,nu:0.2
+10,100,0.3,S,test.txt
+*
+
+
+
