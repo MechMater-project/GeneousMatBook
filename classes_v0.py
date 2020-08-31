@@ -18,7 +18,7 @@
 
     Please if use or improve the software contact julie.diani@gmail.com
 
-"""
+
 Homogenization - classes.py
 
 Definition of classes used in Fast_homogenization_main. Includes a call to a module fortran previously compiled.
