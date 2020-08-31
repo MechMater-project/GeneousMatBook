@@ -18,6 +18,7 @@
 
     Please if use or improve the software contact julie.diani@gmail.com
 
+-----------------------------------------------------
 
 Homogenization - classes.py
 
